@@ -41,6 +41,6 @@ tax = (newvalue1 + newvalue2 + newvalue3 + newvalue4) * 0.06
 print('6% Tax: $ ', tax)
 total = newvalue1 + newvalue2 + newvalue3 + newvalue4 + tax
 print('-----------')
-print('Total: ', total, '\n')
+print('Total: $', total, '\n')
 print('<><><><><><><><><><><><><><><><><><><><><><><><>\n')
 print('Thank you for visiting and come back soon!\n')
