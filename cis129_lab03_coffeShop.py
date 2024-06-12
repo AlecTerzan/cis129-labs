@@ -37,9 +37,9 @@ if value4 == 1:
 else:
   print(value4, 'Pastries bought at $6 ', newvalue4, '\n')
 # Calculate total including tax
-tax = sum(newvalue1, newvalue2, newvalue3, newvalue4) * 0.06
+tax = (newvalue1 + newvalue2 + newvalue3 + newvalue4) * 0.06
 print('6% Tax: $ ', tax)
-total = sum(newvalue1, newvalue2, newvalue3, newvalue4, tax)
+total = newvalue1 + newvalue2 + newvalue3 + newvalue4 + tax
 print('-----------')
 print('Total: ', total, '\n')
 print('<><><><><><><><><><><><><><><><><><><><><><><><>\n')
