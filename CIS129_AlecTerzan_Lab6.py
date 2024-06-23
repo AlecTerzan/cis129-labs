@@ -26,10 +26,10 @@ def showResults(total):
   bunsLeft = (BUNS - total % BUNS) % BUNS
   minDogs = (total / DOGS) + (0 ** (0 ** dogsLeft))
   minBuns = (total / BUNS) + (0 ** (0 ** bunsLeft))
-  print('Minimum packages of hot dogs needed ', minDogs)
-  print('Minimum packages of hot dog buns needed ', minBuns)
-  print('Hot dogs remaining', dogsLeft)
-  print('Hot dog buns remaining', bunsLeft)
+  print(f'Minimum packages of hot dogs needed {minDogs:.0f}')
+  print(f'Minimum packages of hot dog buns needed {minDogs:.0f}')
+  print(f'Hot dogs remaining {dogsLeft:.0f}')
+  print(f'Hot dog buns remaining {bunsLeft:.0f}')
 
 # Execute program functions
 totalHotDogs = 0
